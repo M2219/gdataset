@@ -3,7 +3,8 @@
 __Description__
 
 The content is a growing dataset that includes grasps of Barrett hand over [Princeton Shape Benchmark](https://shape.cs.princeton.edu/benchmark/)(PSB) which includes more than 1800 3D models. This is a public dataset similar to [Columbia Grasp Database](http://grasping.cs.columbia.edu/). The grasps will be collected in five different scales that result in 5 * 1800 models for the training set. The grasps extracted using [graspit! ROS interface](https://github.com/graspit-simulator/graspit_interface).
-d
+
+
 __Strucrture__
 
 The dataset is available in the CSV format but the final dataset would be in .hdf5 or .pkl or SQL database. Headers are defined as follows:
