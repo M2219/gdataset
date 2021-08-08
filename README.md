@@ -2,8 +2,7 @@
 
 __Description__
 
-The content is a growing dataset that includes grasps of Barrett hand over [Princeton Shape Benchmark](https://shape.cs.princeton.edu/benchmark/)(PSB) which includes more than 1800 3D models. This is a public dataset similar to [Columbia Grasp Database](http://grasping.cs.columbia.edu/). The grasps will be collected in five different scales that result in 5 * 1800 models for the training set. The grasps extracted using [graspit! ROS interface](https://github.com/graspit-simulator/graspit_interface).
-
+The content is a growing dataset that includes grasps of Barrett hand over [Princeton Shape Benchmark](https://shape.cs.princeton.edu/benchmark/)(PSB) which includes more than 1800 3D models. This is a public dataset similar to [Columbia Grasp Database](http://grasping.cs.columbia.edu/). The grasps will be collected in five different scales that result in 5 * 1800 models for the training set. The grasps extracted using [graspit! ROS interface](https://github.com/graspit-simulator/graspit_interface). In order to get more reliable grasps applicable in the real world the grasps will go through gravity and disturbance check. To do so, bullet physics engine is used to simulate the grasps under more real physical and mechanical conditions [pybullet](https://github.com/bulletphysics/bullet3).
 
 __Strucrture__
 
@@ -66,20 +65,23 @@ example: [G1, G2, G3, ...]
 example: [[Ixx, Ixy, Ixz],[Iyx, Iyy, Iyz], [Izx, Izy, Izz]]
 
 **'max_ball_reduce'**: Maximum radius originated from the mass center of an object to its surface
+__Gravity Check__
+The following figures show the process of grasp gravity check for m1159 and m111
+
+<img align="center" src="1159.gif" width=400>
+<img align="center" src="111.gif" width=400>
+
 
 __Visualization__
 
 The following images are three samples of the dataset. Run graspit! ROS interface and use the tester.py
 
-sample: 19
 
 <img align="center" src="19.gif" width=400>
 
-sample: 22
 
 <img align="center" src="22.gif" width=400> 
 
-sample: 23
 
 <img align="center" src="23.gif" width=400> 
 
