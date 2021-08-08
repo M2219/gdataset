@@ -65,6 +65,7 @@ example: [G1, G2, G3, ...]
 example: [[Ixx, Ixy, Ixz],[Iyx, Iyy, Iyz], [Izx, Izy, Izz]]
 
 **'max_ball_reduce'**: Maximum radius originated from the mass center of an object to its surface
+
 __Gravity Check__
 The following figures show the process of grasp gravity check for m1159 and m111
 
