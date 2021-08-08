@@ -2,7 +2,7 @@
 
 __Description__
 
-The content is a growing dataset that includes grasps of Barrett hand over [Princeton Shape Benchmark](https://shape.cs.princeton.edu/benchmark/)(PSB) which includes more than 1800 3D models. This is a public dataset similar to [Columbia Grasp Database](http://grasping.cs.columbia.edu/). The grasps will be collected in five different scales that result in 5 * 1800 models for the training set. The grasps extracted using [graspit! ROS interface](https://github.com/graspit-simulator/graspit_interface). In order to get more reliable grasps applicable in the real world the grasps will go through gravity and disturbance check. To do so, bullet physics engine is used to simulate the grasps under more real physical and mechanical conditions [pybullet](https://github.com/bulletphysics/bullet3).
+The content is a growing dataset that includes grasps of Barrett hand over [Princeton Shape Benchmark](https://shape.cs.princeton.edu/benchmark/)(PSB) which includes more than 1800 3D models. This is a public dataset similar to [Columbia Grasp Database](http://grasping.cs.columbia.edu/). The grasps will be collected in five different scales that result in 5 * 1800 models for the training set. The grasps extracted using [graspit! ROS interface](https://github.com/graspit-simulator/graspit_interface). In order to get more reliable grasps applicable in the real world the grasps will go through gravity and disturbance check. To do so, bullet physics engine is used to simulate the grasps under more real physical and mechanical conditions see [pybullet](https://github.com/bulletphysics/bullet3).
 
 __Strucrture__
 
