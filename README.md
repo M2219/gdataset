@@ -68,7 +68,7 @@ example: [[Ixx, Ixy, Ixz],[Iyx, Iyy, Iyz], [Izx, Izy, Izz]]
 
 __Gravity Check__
 
-The following figures show the process of grasp gravity check for m1159 and m111
+The following figures show the process of grasp gravity check for m1159 and m111 using pybullet
 
 <img align="center" src="1159.gif" width=400>
 <img align="center" src="111.gif" width=400>
